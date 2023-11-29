@@ -65,6 +65,8 @@ if (meds_count == 10){
 con este codigo calculabamos la mediana de las ultimas 10 medidas y si esta era mayor a 100 volviamos a la detccion de persona.
 No he conseguido que termine de funcionar de forma completamente satisfactoria aun produciendo errores asi que se encuentra comentado en el codigo.
 
+Por ultimo para la escirtura de los simbolos % y € en el lcd he definido yo dichos caracteres con la funcion lcd_1.createChar(10, percent); y su mapa de bytes correspondiente como bytes iluminados.  
+
 
 A continuacion dejo videos de su funcionamiento:  
 Funcionamiento de las funcionalidades de arranque y servicio:  
