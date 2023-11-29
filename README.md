@@ -63,12 +63,20 @@ No he conseguido que termine de funcionar de forma completamente satisfactoria a
 
 
 A continuacion dejo videos de su funcionamiento:
-Funcionamiento de la funcionalidad servicio
-https://github.com/nicogmon/P3_EMP/assets/102520722/7eddcb51-a478-4a7c-affd-5d9ec2ec6a23
+Funcionamiento de las funcionalidades de arranque y servicio:  
 
 
+https://github.com/nicogmon/P3_EMP/assets/102520722/093339bc-7caa-416b-b951-28110de335cf  
+
+observamos como se ejcuta el arranque, acto seguido pasa a esperar a que aparezca alguien a menos de un metro y observamos como mediante el joystick se eligen adecuadamente las bebidas y se ejecuta su "preparacion" con los leds indicadores y el mensjae en la pantalla tras el segundo cafe se observa bien que tras servir el cafe vuelve a comprobar si hay cliente si el cliente sigue estando la deteccion es muy rapido y por tanto apenas se alcanza a ver el mensaje de espera.
+
+Funcionamiento del reinicio y el modo admin:  
 
 
+https://github.com/nicogmon/P3_EMP/assets/102520722/5bc6664d-9a78-4b3e-905c-c9c7dc29d23c
+
+En este video vemos como al iniciar reiniciamos la funcionalidad de servicio pulsando el boton durante 2 segundos y despues inciamos y probamos las diferentes opciones de admin y acabamos saliendo de dicho menu viendose como volvemos a la funcionalidad de servicio.  
+Tras modificar el precio se mantiene mientras la placa siga encencida:  
 
 
 
