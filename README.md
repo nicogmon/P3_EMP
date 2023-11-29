@@ -15,5 +15,5 @@ Sigueindo el siguiente esquema:
 Detalles Hardware:  
 
 Los pines asociados al boton simple y al boton del joystick se han elegido correspondiendo a los pines que disponen de una resistencia pullup interna en nuestra placa, pines 2 Y 3.  
-Por otra parte, el led1 ha sido conectado a un pin analogico debida la falta de pines digitales suficientes para todos los componentes, no limitanod esto su comportamiento ya que solo debia encenderse y apagarse a una luminosdiad fija.
+Por otra parte, el led1 ha sido conectado a un pin analogico debida la falta de pines digitales suficientes para todos los componentes, no limitanod esto su comportamiento ya que solo debia encenderse y apagarse a una luminosdiad fija.  
 Por ultimo el led1 ha de ser conectado a un pin con funcionalidad pwm para poder regular su intensidad como se especifica en el enunciado.
