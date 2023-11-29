@@ -62,7 +62,7 @@ con este codigo calculabamos la mediana de las ultimas 10 medidas y si esta era 
 No he conseguido que termine de funcionar de forma completamente satisfactoria aun produciendo errores asi que se encuentra comentado en el codigo.
 
 
-A continuacion dejo videos de su funcionamiento:
+A continuacion dejo videos de su funcionamiento:  
 Funcionamiento de las funcionalidades de arranque y servicio:  
 
 
