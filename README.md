@@ -40,5 +40,34 @@ De la misma manera con el sensor de temperatura utilizo un thread ya que no me i
 
 Por ultimo he creado un thread que lleva el contador usando la funcion millis y que se ejecuta cada segundo porque es realmente la medida de segundos la que necesitamos y no es necesario leer dicho valor cada 100-200 milis generando un mayor consumo y uso del core.  
 
+Watchdog:  
+He utilizado el watchdog con temporizador de 8 segundos para evitar posibles bloqueos en whiles o en las diferentes acciones que se ejcutan durante e programa he tenido que establecer los resets al final del bucle principal y dentor de algunos subbloques con esperas o bucles que pueden tardar mas de este timepo establecido pero que no deberian generar bloqueos.
+
+Como extra intente implementar que si durante el servicio la persona dejar de estar frente a la maquina se volviera a la deteccion de persona pero esto generaba comportamientos indeseados por malas detecciones o ruidos en la informacion recogida por le sensor.  
+Aqui el codigo del intento de implementacion:  
+```c++
+if (meds_count == 10){
+          
+          qsort(meds, 10, sizeof(long), cmp_asc);
+          mean = meds[5];
+          Serial.print("mean ");
+          Serial.println(mean);
+          for (int i = 0; i < 10; i++){
+            
+            meds[i] = 0;
+          }
+}
+```
+con este codigo calculabamos la mediana de las ultimas 10 medidas y si esta era mayor a 100 volviamos a la detccion de persona.
+No he conseguido que termine de funcionar de forma completamente satisfactoria aun produciendo errores asi que se encuentra comentado en el codigo.
+
+
+A continuacion dejo videos de su funcionamiento:
+
+
+
+
+
+
 
 
