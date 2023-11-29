@@ -63,6 +63,8 @@ No he conseguido que termine de funcionar de forma completamente satisfactoria a
 
 
 A continuacion dejo videos de su funcionamiento:
+Funcionamiento de la funcionalidad servicio
+https://github.com/nicogmon/P3_EMP/assets/102520722/7eddcb51-a478-4a7c-affd-5d9ec2ec6a23
 
 
 
