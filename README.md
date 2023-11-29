@@ -76,7 +76,10 @@ Funcionamiento del reinicio y el modo admin:
 https://github.com/nicogmon/P3_EMP/assets/102520722/5bc6664d-9a78-4b3e-905c-c9c7dc29d23c
 
 En este video vemos como al iniciar reiniciamos la funcionalidad de servicio pulsando el boton durante 2 segundos y despues inciamos y probamos las diferentes opciones de admin y acabamos saliendo de dicho menu viendose como volvemos a la funcionalidad de servicio.  
+
 Tras modificar el precio se mantiene mientras la placa siga encencida:  
+
+https://github.com/nicogmon/P3_EMP/assets/102520722/1b39d111-581b-4d96-a975-f1d0f87e63aa
 
 
 
